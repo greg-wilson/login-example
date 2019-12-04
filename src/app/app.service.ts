@@ -11,7 +11,7 @@ export class AppService {
 
   constructor() { }
 
-  public isLoggedIn(): boolean{
+  public isLoggedIn(): boolean {
     return this.password === 'admin' && this.username === 'admin';
   }
 }

@@ -19,7 +19,7 @@ export class AppComponent {
     return this.appService.isLoggedIn();
   }
 
-  logout(){
+  logout() {
     this.appService.username = '';
     this.router.navigate(['alpha']);
   }
